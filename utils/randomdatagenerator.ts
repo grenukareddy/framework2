@@ -96,7 +96,7 @@ static getPhoneNumber()
 
   static getFirstName1()
 {
-    
+    return faker.person.middleName();
 
 }
 

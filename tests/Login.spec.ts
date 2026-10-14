@@ -19,7 +19,7 @@ test("login to OrangeHRM", async({page})=>
  await objects.Loginpage.enterusername(username)
  await objects.Loginpage.enterpassword(password)
  await objects.Loginpage.clickLogin(homepageTitle)
- 
+ await page.waitForTimeout(5000)
 
 
 
