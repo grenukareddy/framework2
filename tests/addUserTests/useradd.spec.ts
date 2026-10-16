@@ -8,7 +8,8 @@ import { RandomDataUtil } from '../../utils/randomdatagenerator';
 
  let generatedusername=RandomDataUtil.getFirstName()
 
- let data = dataReader.readDatafromJSON("D:/Framework_Practice/Framework2/testdata/orangeCreds.JSON")
+ //let data = dataReader.readDatafromJSON("D:/Framework_Practice/Framework2/testdata/orangeCreds.JSON")
+ let data = dataReader.readDatafromJSON("testdata/orangeCreds.JSON")
 
  let username=data[0].username;
  let password=data[0].password;
