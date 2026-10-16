@@ -15,5 +15,12 @@
     "@faker-js/faker": "^10.6.0",
     "csv-parse": "^7.0.3",
     "xlsx": "^0.18.5"
+  },
+  "scripts":{
+
+    "test:all" :"playwright test"
+
   }
+
+
 }
